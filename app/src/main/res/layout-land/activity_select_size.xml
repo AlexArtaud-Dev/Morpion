@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#230140"
+    tools:context=".SelectSizeActivity">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="379dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/nasalizationrg"
+        android:text="@string/chooseSize"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <NumberPicker
+        android:id="@+id/numberPicker"
+        android:theme="@style/DefaultNumberPickerTheme"
+        android:layout_width="299dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/nasalizationrg"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="298dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/nasalizationrg"
+        android:onClick="goToCustomGame"
+        android:text="@string/validate"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/numberPicker"
+        app:layout_constraintTop_toBottomOf="@+id/numberPicker" />
+</androidx.constraintlayout.widget.ConstraintLayout>

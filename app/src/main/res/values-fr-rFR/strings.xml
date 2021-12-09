@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Morpion</string>
+    <string name="top5">(TOP 5)</string>
+    <string name="playerOne">Joueur 1</string>
+    <string name="playerTwo">Joueur 2</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="jouer">Jouer</string>
+    <string name="imagePlayerOne">Image Joueur 1</string>
+    <string name="imagePlayerTwo">Image Joueur 2</string>
+    <string name="addPicture">Sélectionner</string>
+    <string name="Image">Photo</string>
+    <string name="chooseDifficulty">Choisissez une difficulté</string>
+    <string name="unbeatableDiff">IMBATTABLE</string>
+    <string name="randomDiff">ALÉATOIRE</string>
+    <string name="player">Joueur</string>
+    <string name="chooseSize">Choisissez une taille de morpion</string>
+    <string name="validate">VALIDER</string>
+    <string name="victory">Victoire</string>
+    <string name="nulle">Nulle</string>
+    <string name="defeat">Défaite</string>
+    <string name="scores">Scores</string>
+    <string name="restartButton">Rejouer</string>
+    <string name="finishedGame">Fin de Partie</string>
+    <string name="button_three">Ordinateur</string>
+    <string name="button_two">N X N</string>
+    <string name="button_one">3 X 3</string>
+    <string name="app_title">MORPION</string>
+    <string name="renseignePlayers">Les deux joueurs doivent être renseignés</string>
+    <string name="diffPlayers">Les deux joueurs doivent être différents!</string>
+    <string name="haveTwoImages">Les deux joueurs doivent avoir une image</string>
+    <string name="a">"A "</string>
+    <string name="toPlay">" de jouer..."</string>
+</resources>

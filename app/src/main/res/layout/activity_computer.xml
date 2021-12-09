@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#230140"
+    tools:context=".ComputerActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="130dp"
+        >
+
+        <TextView
+            android:id="@+id/playingPlayerComp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/nasalizationrg"
+            android:text="@string/turn"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+
+        <ImageButton
+            android:id="@+id/button_01"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:background="@color/primary_color"
+            android:layout_marginRight="25dp"
+            android:onClick="playerPlay"
+            />
+
+        <ImageButton
+            android:id="@+id/button_02"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:background="@color/primary_color"
+            android:layout_marginRight="25dp"
+            android:onClick="playerPlay"
+            />
+
+        <ImageButton
+            android:id="@+id/button_03"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:background="@color/primary_color"
+            android:onClick="playerPlay"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+
+        <ImageButton
+            android:id="@+id/button_04"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:background="@color/primary_color"
+            android:layout_marginRight="25dp"
+            android:onClick="playerPlay"
+            />
+
+        <ImageButton
+            android:id="@+id/button_05"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:background="@color/primary_color"
+            android:layout_marginRight="25dp"
+            android:onClick="playerPlay"
+            />
+
+        <ImageButton
+            android:id="@+id/button_06"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
+            android:background="@color/primary_color"
+            android:layout_height="110dp"
+            android:textSize="60sp"
+            android:onClick="playerPlay"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        >
+
+        <ImageButton
+            android:id="@+id/button_07"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:background="@color/primary_color"
+            android:layout_marginRight="25dp"
+            android:onClick="playerPlay"
+            />
+
+        <ImageButton
+            android:id="@+id/button_08"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:background="@color/primary_color"
+            android:layout_marginRight="25dp"
+            android:onClick="playerPlay"
+            />
+
+        <ImageButton
+            android:id="@+id/button_09"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:background="@color/primary_color"
+            android:onClick="playerPlay"
+            />
+    </LinearLayout>
+</LinearLayout>

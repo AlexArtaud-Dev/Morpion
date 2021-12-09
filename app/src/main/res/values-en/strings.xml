@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Morpion</string>
+    <string name="validate">VALIDATE</string>
+    <string name="addPicture">SELECT</string>
+    <string name="scores">Scores</string>
+    <string name="restartButton">Restart</string>
+    <string name="pseudo">Nickname</string>
+    <string name="Image">Picture</string>
+    <string name="button_three">Computer</string>
+    <string name="button_two">N X N</string>
+    <string name="app_title">Morpion</string>
+    <string name="playerTwo">Player 2</string>
+    <string name="playerOne">Player 1</string>
+    <string name="player">Player</string>
+    <string name="jouer">Play</string>
+    <string name="unbeatableDiff">UNBEATBLE</string>
+    <string name="imagePlayerTwo">Player 2 Picture</string>
+    <string name="imagePlayerOne">Player 1 Picture</string>
+    <string name="finishedGame">End of Game</string>
+    <string name="chooseSize">Choose tic tac to size</string>
+    <string name="chooseDifficulty">Choose a difficulty</string>
+    <string name="randomDiff">RANDOM</string>
+    <string name="button_one">3 X 3</string>
+    <string name="top5">(TOP 5)</string>
+    <string name="victory">Victory</string>
+    <string name="nulle">Draw</string>
+    <string name="defeat">Defeat</string>
+    <string name="renseignePlayers">Two players must be selected</string>
+    <string name="diffPlayers">The two players must be differents</string>
+    <string name="haveTwoImages">The two player must have an image</string>
+    <string name="toPlay">"  turn to play ..."</string>
+    <string name="a">" "</string>
+</resources>
